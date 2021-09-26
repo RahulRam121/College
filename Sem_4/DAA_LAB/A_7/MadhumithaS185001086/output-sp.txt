@@ -1,0 +1,17 @@
+DJIKSTRA ALGORITHM
+vertex	 distance	 previousvertex
+
+g 	 9 	 c
+b 	 3 	 a
+a 	 0 	 a
+j 	 12 	 f
+c 	 5 	 a
+e 	 5 	 d
+h 	 9 	 d
+d 	 4 	 a
+l 	 14 	 i
+i 	 9 	 e
+k 	 15 	 g
+f 	 7 	 e
+
+

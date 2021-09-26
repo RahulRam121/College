@@ -1,0 +1,35 @@
+Adjacency Matrix: 
+
+False True False False 
+False False False True 
+False False False False 
+True False True False 
+
+Transitive Closure Matrix :
+
+True True True True 
+True True True True 
+False False False False 
+True True True True 
+
+Reachability Status:
+
+0 to 0 path exists
+0 to 1 path exists
+0 to 2 path exists
+0 to 3 path exists
+
+1 to 0 path exists
+1 to 1 path exists
+1 to 2 path exists
+1 to 3 path exists
+
+2 to 0 path does not exists
+2 to 1 path does not exists
+2 to 2 path does not exists
+2 to 3 path does not exists
+
+3 to 0 path exists
+3 to 1 path exists
+3 to 2 path exists
+3 to 3 path exists

@@ -1,0 +1,97 @@
+	
+/*
+1. Display the flight number,departure date and time of a flight, its  route details and aircraft 
+name of type either Schweizer or Piper that departs during 8.00 PM and 9.00 PM.
+*/
+///
+SELECT f.flno ,f.departs, f.dtime as "time of flight",r.orig_airport,r.dest_airport,a.type  from fl_schedule f,routes r,aircraft a,flights fl
+WHERE f.flno = fl.flightno AND r.routeid = fl.rid AND fl.aid = a.aid AND a.type = 'Schweizer' OR a.type ='Piper' AND f.dtime = 710;
+
+
+/*
+2. For all the routes, display the flight number, origin and destination airport, if a flight is 
+assigned for that route.
+*/
+
+SELECT r.routeid, f.flightno, r.orig_airport, r.dest_airport 
+	FROM routes r, flights f
+WHERE r.routeid = f.rid;
+
+/*
+3. For all aircraft with cruisingrange over 5,000 miles, find the name of the aircraft and the 
+average salary of all pilots certified for this aircraft.
+*/
+
+SELECT a.aname, AVG(e.salary)
+	FROM aircraft a, employee e, certified c
+WHERE a.aid = c.aid AND c.eid = e.eid AND a.cruisingrange > 5000
+GROUP BY a.aname;
+
+/*
+4. Show the employee details such as id, name and salary who are not pilots and whose salary 
+is more than the average salary of pilots.
+*/
+
+SELECT e.eid, e.ename, e.salary
+	FROM employee e
+WHERE e.eid NOT IN (SELECT eid FROM certified)
+	AND e.salary > (SELECT AVG(salary) from employee e
+		WHERE e.eid IN (SELECT eid FROM certified));
+
+/*
+5. Find the id and name of pilots who were certified to operate some aircrafts but at least one 
+of that aircraft is not scheduled from any routes.
+*/
+
+SELECT eid, ename
+	FROM employee
+WHERE eid IN (SELECT eid FROM certified) 
+	AND 1<=(SELECT COUNT(c.aid) from certified c,flights f,routes r
+		WHERE c.aid = f.aid AND f.rid <> r.routeid
+			GROUP BY c.eid);
+
+/*
+6. Display the origin and destination of the flights having at least three departures with 
+maximum distance covered.
+*/
+
+SELECT orig_airport, dest_airport, distance
+	FROM routes
+WHERE 3 IN (SELECT COUNT(fl.flno) 
+		FROM fl_schedule fl, flights f,routes r
+			WHERE fl.flno = f.flightno AND f.rid = r.routeid
+				GROUP BY fl.flno);
+
+/*
+7. Display name and salary of pilot whose salary is more than the average salary of any pilots 
+for each route other than flights originating from Madison airport.
+*/
+
+SELECT ename, salary
+	FROM employee
+WHERE salary > (SELECT AVG(e.salary) 
+		FROM employee e, certified c, flights f, routes r
+			WHERE e.eid = c.eid AND c.aid = f.aid AND f.rid = r.routeid
+				AND r.orig_airport <> 'Madision');
+
+/*
+8. Display the flight number, aircraft type, source and destination airport of the aircraft having 
+maximum number of flights to Honolulu
+*/
+////
+SELECT f.flightno, a.type, r.orig_airport, r.dest_airport 
+	FROM flights f, aircraft a, routes r
+WHERE ((SELECT COUNT(f.flightno) 
+		FROM flights f, aircraft a, routes r
+	WHERE r.dest_airport = 'Honolulu' AND r.routeid = f.rid AND f.aid = a.aid )<=( SELECT COUNT(f.flightno) 
+		FROM flights f, aircraft a, routes r
+	WHERE r.dest_airport = 'Honolulu' AND r.routeid = f.rid AND f.aid = a.aid) = 1);
+
+/*
+9. Display the pilot(s) who are certified exclusively to pilot all aircraft in a type.
+*/
+
+SELECT e.ename 
+	FROM employee e, certified c, aircraft a
+WHERE e.eid = c.eid AND c.aid = a.aid AND a.type 
+

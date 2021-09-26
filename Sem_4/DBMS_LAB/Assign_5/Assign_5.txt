@@ -1,0 +1,174 @@
+REM ------------------------------------------------------------------------------------------
+
+drop table order_list;
+drop table orders;
+drop table customer;
+drop table pizza;
+
+REM ------------------------------------------------------------------------------------------
+
+REM customer(cust_id, cust_name,address,phone)
+REM primary key - cust_id
+
+create table customer(
+	cust_id varchar2(7),
+	cust_name varchar(10),
+	address varchar2(25),
+	phone number,
+	constraint customer_pk primary key (cust_id)
+);
+
+insert into customer values('c001','Hari','32 RING ROAD,ALWARPET',9001200031);
+insert into customer values('c002','Ashok','42 bull ROAD,numgambakkam',9444120003);
+insert into customer values('c003','Raj','12a RING ROAD,ALWARPET',9840112003);
+insert into customer values('c004','Raghu','P.H ROAD,Annanagar',9845712993);
+insert into customer values('c005','Sindhu','100 feet ROAD,vadapalani',9840166677);
+insert into customer values('c006','Brinda','GST ROAD, TAMBARAM', 9876543210);
+
+REM ------------------------------------------------------------------------------------------
+
+REM pizza (pizza_id, pizza_type, unit_price)
+REM primary key - pizza_id
+
+create table pizza(
+	pizza_id varchar2(8),
+	pizza_type varchar(10),
+	unit_price number,
+	constraint pizza_pk primary key (pizza_id)
+);
+
+
+insert into pizza values('p001','pan',130);
+insert into pizza values('p002','grilled',230);
+insert into pizza values('p003','italian',200);
+insert into pizza values('p004','spanish',260);
+
+REM insert into pizza values('p005','supremo',250);
+
+REM ------------------------------------------------------------------------------------------
+
+REM orders(order_no, cust_id, order_date ,delv_date)
+REM primary key - order_no
+REM foreign key - cust_id -> customer(cust_id)
+
+create table orders(
+	order_no varchar2(8),
+	cust_id varchar2(7),
+	order_date date,
+	delv_date date,
+	constraint orders_pk primary key (order_no),
+	constraint orders_fk foreign key (cust_id) references customer(cust_id)
+);
+
+insert into orders values('OP100','c001','28-JUN-2015','30-JUN-2015');
+insert into orders values('OP200','c002','28-JUN-2015','30-JUN-2015');
+insert into orders values('OP300','c003','29-JUN-2015','01-JUL-2015');
+insert into orders values('OP400','c004','29-JUN-2015','01-JUL-2015');
+insert into orders values('OP500','c001','29-JUN-2015','01-JUL-2015');
+insert into orders values('OP600','c002','29-JUN-2015','01-JUL-2015');
+
+REM ------------------------------------------------------------------------------------------
+
+REM order_list(order_no, pizza_id, qty)
+REM primary key - order_no, pizza_id
+REM foreign key - order_no -> orders(order_no), pizza_id -> pizza(pizza_id)
+
+create table order_list(
+	order_no varchar2(8),
+	pizza_id varchar2(8),
+	qty number,
+	constraint order_list_pk primary key (order_no, pizza_id),
+	foreign key (order_no) references orders(order_no),
+	foreign key (pizza_id) references pizza(pizza_id)
+);	
+
+insert into order_list values('OP100','p001',3);
+insert into order_list values('OP100','p002',2);
+insert into order_list values('OP100','p003',1);
+insert into order_list values('OP100','p004',5);
+insert into order_list values('OP200','p003',2);
+insert into order_list values('OP200','p001',6);
+insert into order_list values('OP200','p004',8);
+insert into order_list values('OP300','p003',3);
+insert into order_list values('OP400','p001',3);
+insert into order_list values('OP400','p004',1);
+insert into order_list values('OP500','p003',6);
+insert into order_list values('OP500','p004',5);
+insert into order_list values('OP500','p001',null);
+insert into order_list values('OP600','p002',3);
+
+REM ------------------------------------------------------------------------------------------
+
+select * from customer;
+select * from pizza;
+select * from orders;
+select * from order_list;
+
+REM ------------------------------------------------------------------------------------------
+
+set serveroutput on;
+
+REM ------------------------------------------------------------------------------------------
+
+/*1. Check whether the given pizza type is available. If not display appropriate message.*/
+
+declare 
+pizza_v pizza.pizza_type%type;	
+begin 
+	pizza_v:='&pizza_type';
+	update pizza set pizza_type = pizza_v
+	where pizza_type = pizza_v;
+if sql%found then
+	dbms_output.put_line('"' || pizza_v || '" type is available');
+else
+	dbms_output.put_line('"' || pizza_v || '" type is not available');
+end if;
+end;
+/
+grilled
+
+REM ------------------------------------------------------------------------------------------
+
+/*2. For the given customer name and a range of order date, find whether a customer had
+placed any order, if so display the number of orders placed by the customer along 
+with the order number(s).*/
+
+declare
+orderno orders.order_no%type;
+cname customer.cust_name%type;
+s_orderdate date;
+e_orderdate date;
+
+begin
+	cname := '&customer_name';
+	s_orderdate := '&starting_order_date';
+	e_orderdate := '&ending_order_date';
+	
+	select order_list.order_no into orderno from order_list
+	inner join orders on order_list.order_no = orders.order_no
+	inner join customer on orders.cust_id = customer.cust_id 
+	where customer.cust_name = cname and
+	orders.order_date between s_orderdate and e_orderdate;
+	dbms_output.put_line('' || orderno || '');
+end;
+/
+Raghu
+24-JUN-15
+29-JUN-15	
+
+declare
+	cursor c1 is select count(*) as orders, order_list.order_no from order_list
+	inner join orders on order_list.order_no = orders.order_no
+	inner join customer on orders.cust_id = customer.cust_id 
+	where customer.cust_name = cname and
+	orders.order_date between s_orderdate and e_orderdate
+	group by order_list.order_no;
+begin	
+	for cur in c1 loop
+		dbms_output.put_line('Number of Orders: ' || cur.orders || 'Order No: ' || cur.order_no);
+	end loop;
+end;
+/
+Raghu
+24-JUN-15
+29-JUN-15

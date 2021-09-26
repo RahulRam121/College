@@ -1,0 +1,13 @@
+Size    Method          No_of_pairs     T(n)
+1000    Bubble_sort          238405     0.063983  
+1000    merge_sort           238405     0.007999  
+2000    Bubble_sort         1002092     0.248289  
+2000    merge_sort          1002092     0.015996  
+3000    Bubble_sort         2242751     0.599869  
+3000    merge_sort          2242751     0.019974  
+10000   Bubble_sort        24815660     7.462956  
+10000   merge_sort         24815660     0.099974  
+
+Time COmplexity of Bubble_sort algorithm is O(n^2)
+
+Time COmplexity of Merge_sort algorithm is O(nlogn)

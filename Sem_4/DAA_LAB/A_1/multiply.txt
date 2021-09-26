@@ -1,0 +1,28 @@
+Result = [[0, 0],[0, 0]]
+N = [[1, 1],[1, 0]]
+n = int(input("Enter number : "))
+i = 0
+n -= 1
+# multiply() - multiply two input matrix and resturns the resultant matrix
+def multiply(mat1,mat2) :
+    result = [[0, 0],[0, 0]]
+    if mat2[0][0] == 0 :
+        return mat1
+    for i in range(len(mat1)) :
+        for j in range(len(mat1[0])) :
+            for k in range(len(mat2)) :
+                result[i][j] += mat1[i][k] * mat2[k][j]
+    return result
+
+# Taking LCM for n. And for every remainder 1, corresponding N(pow(i)) is multiplied to the resultant matrix
+# Instead of using String of bits, I completed this program using the above method
+while n >= 1 :
+    if i > 0 :
+        N = multiply(N,N)
+    if n%2 == 1 :
+        Result = multiply(N,Result)
+    n = int(n / 2)
+    i += 1
+
+# Corresponding fibonacci term
+print("Result is ",Result[0][0])

@@ -1,0 +1,75 @@
+/*
+11. Display firsy name, job id and salary of all the employees.
+*/
+
+SELECT first_name,job_id,salary FROM employees;
+
+/*
+12. Display the id, name(first & last), salary and annual salary of all the employees. Sort the 
+employees by first name. Label the columns as shown below:
+(EMPLOYEE_ID, FULL NAME, MONTHLY SAL, ANNUAL SALARY)
+*/
+
+SELECT employee_id ,CONCAT(first_name,last_name) AS full_name,salary,
+(salary * 12) AS annual_salary FROM employees 
+ORDER BY first_name;
+
+/*
+13. List the different jobs in which the employees are working for
+*/
+
+SELECT DISTINCT job_id AS jobs FROM employees;
+
+/*
+14. Display the id, first name, job id, salary and commission of employees who are earning 
+commissions.
+*/
+
+SELECT employee_id, first_name, salary, (commission_pct * salary) AS commission FROM employees 
+WHERE commission_pct IS NOT NULL;
+
+/*
+15. Display the details (id, first name, job id, salary and dept id) of employees who are 
+MANAGERS.
+*/
+
+SELECT employee_id, first_name, job_id, salary, department_id FROM employees
+WHERE manager_id IS NOT NULL;
+
+/*
+16. Display the details of employees other than sales representatives (id, first name, hire date, 
+job id, salary and dept id) who are hired after ‘01­May­1999’ or whose salary is at least 
+10000.
+*/
+
+SELECT employee_id, first_name, hire_date, job_id, salary, department_id FROM employees
+WHERE hire_date > '01-May-99' OR salary >= 10000;
+
+/*
+17. Display the employee details (first name, salary, hire date and dept id) whose salary falls in 
+the range of 5000 to 15000 and his/her name begins with any of characters (A,J,K,S). Sort 
+the output by first name.
+*/
+
+SELECT employee_id, first_name, hire_date, job_id, salary, department_id FROM employees
+WHERE salary BETWEEN 5000 AND 15000 AND SUBSTR(first_name,1,1) IN ('A','J','K','S');
+
+/*
+18. Display the experience of employees in no. of years and months who were hired after 1998. 
+Label the columns as: (EMPLOYEE_ID, FIRST_NAME, HIRE_DATE, EXP­YRS, EXP­MONTHS)
+*/
+
+SELECT first_name,TRUNC(((TO_DATE('01-02-2020','DD-MM-YY') - hire_date)/365),0) AS YEARS,TRUNC((MOD((TO_DATE('01-02-2020','DD-MM-YY') - hire_date),365)/30),0) as MONTHS FROM employees
+WHERE hire_date > '01-Jan-98';
+
+/*
+19. Display the total number of departments.
+*/
+
+SELECT COUNT(DISTINCT department_id) as unique_depts
+FROM employees;
+
+/*
+20. Show the number of employees hired by year­wise. Sort the result by year­wise.
+*/
+

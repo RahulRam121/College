@@ -1,0 +1,63 @@
+/****************************************************/
+/*
+1. Create a view Schedule_15 that display the flight number, route, airport(origin, destination) 
+departure (date, time), arrival (date, time) of a flight on 15 apr 2005. Label the view 
+column as flight, route, from_airport, to_airport, ddate, dtime, adate, atime respectively.
+*/
+CREATE VIEW Schedule_15 AS
+	SELECT f.flightno AS flight, r.routeid AS route, r.orig_airport as from_airport,
+  	r.dest_airport as to_airport, fl.departs as ddate,
+	fl.dtime, fl.arrives as adate, fl.atime
+	FROM flights f INNER JOIN fl_schedule fl ON f.flightno = fl.flno
+	INNER JOIN routes r ON r.routeid = f.rid
+	WHERE fl.arrives = '15-APR-05';
+	
+SELECT * FROM Schedule_15;
+
+/* 8 rows selected */
+
+/******************************************************/
+/*2. Define a view Airtype that display the number of aircrafts for each of its type. Label the 
+column as craft_type, total.
+*/
+
+CREATE VIEW Airtype AS
+	SELECT type AS craft_type, COUNT(type) AS total
+	FROM  aircraft GROUP BY type;
+
+SELECT * FROM Airtype;
+
+/*9 rows selected*/
+
+/*******************************************************/
+/*
+3. Create a view Losangeles_Route that contains Los Angeles in the route. Ensure that the view 
+always contain/allows only information about the Los Angeles route.
+*/
+
+CREATE VIEW Losangeles_Route AS
+	SELECT * FROM routes
+	WHERE orig_airport = 'Los Angeles' OR dest_airport = 'Los Angeles';
+
+SELECT * FROM Losangeles_Route;
+
+/*9 rows selected*/
+
+/******************************************************/
+/*
+4. Create a view named Losangeles_Flight on Schedule_15 (as defined in 1) that display flight, 
+departure (date, time), arrival (date, time) of flight(s) from Los Angeles.
+*/
+
+CREATE VIEW Losangeles_Flight AS
+	SELECT flight, ddate, dtime, adate, atime
+	FROM Schedule_15 
+	WHERE from_airport = 'Los Angeles';
+
+SELECT * FROM Losangeles_Flight;
+
+/* 3 rows selected */
+
+/*******************************************************/
+
+
