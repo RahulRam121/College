@@ -1,0 +1,10 @@
+	ORG 0000H
+	MOV A, R0
+	MOV B, #02H
+	CLR C
+	DIV AB
+	MOV R1, B
+END:	SJMP END
+
+	
+	

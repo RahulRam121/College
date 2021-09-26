@@ -1,0 +1,8 @@
+	MOV A, R0
+	MOV B, R0
+	MUL AB
+	MOV B, R0
+	MUL AB
+	MOV R1, B
+	MOV R2, A
+HERE: 	SJMP HERE
