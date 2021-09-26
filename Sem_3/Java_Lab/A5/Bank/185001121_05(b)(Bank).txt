@@ -1,0 +1,140 @@
+Enter the number of account
+2
+
+Enter the Account details
+Name :rahul
+Branch :sbi
+Account Number :123
+Pan :0
+Balance :77777
+
+Enter the Account details
+Name :ram
+Branch :kotak
+Account Number :124
+Pan :6786
+Balance :70000
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+1
+Enter account number : 123
+Balance Amount:77777.0
+Enter amount : 60000
+
+Caught: PANRequiredException
+Do you want to add PAN?(1.yes/2.n0):
+2
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+2
+Enter account number : 124
+Balance Amount : 70000.0
+Enter amount : 75000
+
+Caught : NotEnougMoneyInAccountException
+Available Balance : 70000.0
+Reduce Withdrawal Amount
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+2
+Enter account number : 124
+Balance Amount : 70000.0
+Enter amount : 69500
+
+Caught : MinBalRequiredException 
+Available Balance : 70000.0
+Maintain Minimum Balance
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+2
+Enter account number : 124
+Balance Amount : 70000.0
+Enter amount : 50000
+Balance Updated!
+New Balance : 20000.0
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+3
+Enter account number : 
+124
+
+********************************************
+Name of the customer: ram
+Account Number      : 124
+Pan Number          : 6786
+Branch              : kotak
+Balance Amount      : 20000.0
+********************************************
+
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+3
+Enter account number : 
+125
+
+Caught : AccountNotFoundException
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+4
+
+********************************************
+Name of the customer: rahul
+Account Number      : 123
+Pan Number          : 0
+Branch              : sbi
+Balance Amount      : 77777.0
+********************************************
+
+
+********************************************
+Name of the customer: ram
+Account Number      : 124
+Pan Number          : 6786
+Branch              : kotak
+Balance Amount      : 20000.0
+********************************************
+
+
+Enter
+1.Deposit
+2.Widthdraw
+3.Search
+4.Display
+5.Exit
+5
+Process Completed..

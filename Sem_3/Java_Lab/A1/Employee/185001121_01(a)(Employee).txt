@@ -1,0 +1,130 @@
+Enter the number of employees: 3
+
+choose
+1.Enter the Employee Details
+2.Display Employee Records
+3.Generate payslip for an Emplyee
+4.Promote an Emplpoyee
+5.Exit
+
+Enter your choice: 1
+
+Employee record: 1
+Enter the Employee id: 123
+Enter the Employee NAME: rahul
+Enter the DATE of BIRTH:(DD/MM/YY) 2/2/1991
+Enter the DATE of JOINING:(DD/MM/YY) 2/2/2014
+Enter the designation: manager
+Enter the basic pay: 30000
+Does Employee Opt for LIC Premium Account? (1. Yes / 2. No): 1
+Enter the LIC value: 566
+
+Employee record: 2
+Enter the Employee id: 124
+Enter the Employee NAME: ram
+Enter the DATE of BIRTH:(DD/MM/YY) 1/1/1993
+Enter the DATE of JOINING:(DD/MM/YY) 3/3/2016
+Enter the designation: intern
+Enter the NO. of HOUR worked :4000
+Enter the hour wage: 500
+Does Employee Opt for LIC Premium Account? (1. Yes / 2. No): 2
+
+Employee record: 3
+Enter the Employee id: 125
+Enter the Employee NAME: prithvi
+Enter the DATE of BIRTH:(DD/MM/YY) 5/5/1995
+Enter the DATE of JOINING:(DD/MM/YY) 2/2/2017
+Enter the designation: others
+Enter the basic pay: 30000
+Does Employee Opt for LIC Premium Account? (1. Yes / 2. No): 2
+
+choose
+1.Enter the Employee Details
+2.Display Employee Records
+3.Generate payslip for an Emplyee
+4.Promote an Emplpoyee
+5.Exit
+
+Enter your choice: 2
+
+Empolyee record: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ID          : 123             NAME : rahul
+designation : manager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     basic pay  : Rs:30000/-
+     gross pay  : Rs:45000/-
+     deductions : Rs:2966/-
+               ------------------------------
+                net salary : Rs:42034/-
+
+Empolyee record: 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ID          : 124             NAME : ram
+designation : intern
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+No.of hours worked : Rs:4000 Hours
+     Hourly wage   : Rs:500/-
+     gross pay     : Rs:2003000/-
+     deductions    : Rs:500/-
+               ----------------------------------
+                    net salary : Rs:2002500/-
+
+Empolyee record: 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ID          : 125             NAME : prithvi
+designation : others
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     basic pay  : Rs:30000/-
+     gross pay  : Rs:42000/-
+     deductions : Rs:2400/-
+               ------------------------------
+                net salary : Rs:39600/-
+
+choose
+1.Enter the Employee Details
+2.Display Employee Records
+3.Generate payslip for an Emplyee
+4.Promote an Emplpoyee
+5.Exit
+
+Enter your choice: 3
+Enter the Employee id: 124
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ID          : 124            NAME : ram
+ D.O.B       : 01/01/1993    D.O.J : 03/03/2016
+ designation : intern
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Monthly wage  : Rs:2000000/-
+     DA            : Rs:2000/-
+     HRA           : Rs:1000/-
+     LIC           : not opted
+     PF            : Rs:500/-
+     gross pay     : Rs:2003000/-
+     deductions    : Rs:500/-
+               ----------------------------------
+                    net salary : Rs:2002500/-
+
+choose
+1.Enter the Employee Details
+2.Display Employee Records
+3.Generate payslip for an Emplyee
+4.Promote an Emplpoyee
+5.Exit
+
+Enter your choice: 4
+Enter the Employee id: 124
+
+Employee 124 details: 
+
+ramdoesn't have much experience for promotion
+
+
+choose
+1.Enter the Employee Details
+2.Display Employee Records
+3.Generate payslip for an Emplyee
+4.Promote an Emplpoyee
+5.Exit
+
+Enter your choice: 5

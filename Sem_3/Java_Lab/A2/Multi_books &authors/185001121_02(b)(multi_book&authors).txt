@@ -1,0 +1,196 @@
+Enter the number of books:
+3
+Enter the name of the book:
+rahul
+Enter the number of authors:
+2
+Author no 1
+Enter the name of the Author;
+abc
+Enter the email id of the Author:
+abc@
+Enter the Gender:
+m
+Author no 2
+Enter the name of the Author;
+def
+Enter the email id of the Author:
+def@
+Enter the Gender:
+m
+Enter the price:
+567
+Enter the Quantity:
+5
+Enter the name of the book:
+ram
+Enter the number of authors:
+3
+Author no 1
+Enter the name of the Author;
+qwe
+Enter the email id of the Author:
+qwe@
+Enter the Gender:
+f
+Author no 2
+Enter the name of the Author;
+ert
+Enter the email id of the Author:
+ert
+Enter the Gender:
+f
+Author no 3
+Enter the name of the Author;
+pop
+Enter the email id of the Author:
+pop
+Enter the Gender:
+m
+Enter the price:
+890
+Enter the Quantity:
+8
+Enter the name of the book:
+java
+Enter the number of authors:
+1
+Author no 1
+Enter the name of the Author;
+jav
+Enter the email id of the Author:
+jav@
+Enter the Gender:
+m
+Enter the price:
+455
+Enter the Quantity:
+56
+1.Search
+2.Modify Details
+3.printall
+4.exit
+3
+Book No1
+name of the book:rahul
+Author name:abc
+Email:abc@
+Gender:m
+Author name:def
+Email:def@
+Gender:m
+Price:567.0
+Quantity:5
+Book No2
+name of the book:ram
+Author name:qwe
+Email:qwe@
+Gender:f
+Author name:ert
+Email:ert
+Gender:f
+Author name:pop
+Email:pop
+Gender:m
+Price:890.0
+Quantity:8
+Book No3
+name of the book:java
+Author name:jav
+Email:jav@
+Gender:m
+Price:455.0
+Quantity:56
+1.Search
+2.Modify Details
+3.printall
+4.exit
+2
+Modify
+1.Email.
+2.Price.
+3.Quantity.
+4.Exit
+1
+Enter Book's Name : 
+ram
+Enter the name of the author:
+pop
+Enter the new email:
+pop@
+Modify
+1.Email.
+2.Price.
+3.Quantity.
+4.Exit
+2
+Enter Book's Name : 
+java
+Enter the new price : 
+999
+Modify
+1.Email.
+2.Price.
+3.Quantity.
+4.Exit
+3
+Enter Book's Name : 
+rahul
+Enter the new Quantity : 
+12
+Modify
+1.Email.
+2.Price.
+3.Quantity.
+4.Exit
+3
+Enter Book's Name : 
+java
+Enter the new Quantity : 
+7
+Modify
+1.Email.
+2.Price.
+3.Quantity.
+4.Exit
+4
+1.Search
+2.Modify Details
+3.printall
+4.exit
+3
+Book No1
+name of the book:rahul
+Author name:abc
+Email:abc@
+Gender:m
+Author name:def
+Email:def@
+Gender:m
+Price:567.0
+Quantity:12
+Book No2
+name of the book:ram
+Author name:qwe
+Email:qwe@
+Gender:f
+Author name:ert
+Email:ert
+Gender:f
+Author name:pop
+Email:pop@
+Gender:m
+Price:890.0
+Quantity:8
+Book No3
+name of the book:java
+Author name:jav
+Email:jav@
+Gender:m
+Price:999.0
+Quantity:7
+1.Search
+2.Modify Details
+3.printall
+4.exit
+4

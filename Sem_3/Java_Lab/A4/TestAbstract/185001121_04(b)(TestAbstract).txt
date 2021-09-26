@@ -1,0 +1,158 @@
+ Press : 
+ 1. Circle
+ 2. Rectangle
+ 3. Square
+ 4. Exit
+ Enter your choice : 1
+
+ Circle : 
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your choice : 1
+
+ color      : BLUE
+ Area       : 3.14
+ Perimeter  : 6.28
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your choice: 2
+
+ Radius : 3
+
+ color      : BLUE
+ Area       : 28.26
+ Perimeter  : 18.84
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your choice: 3
+
+ Colour : red
+ Radius : 5
+
+ color      : red
+ Area       : 78.5
+ Perimeter  : 31.400002
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your choice: 4
+
+ Press : 
+ 1. Circle
+ 2. Rectangle
+ 3. Square
+ 4. Exit
+ Enter your choice : 2
+
+ Rectangle : 
+ 1 .Default Constructor
+ 2 .Change  2 parameters
+ 3 .Change  3 parameters
+ 4 .Exit
+ Enter your Choice : 1
+
+ color     : BLUE
+ Area      : 1.0
+ Perimeter : 4.0
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 2
+
+ Length : 4
+ Width  : 5
+
+ color     : BLUE
+ Area      : 20.0
+ Perimeter : 18.0
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 3
+
+ Color: pink
+ Length : 6
+ Width  : 7
+
+ color     : pink
+ Area      : 42.0
+ Perimeter : 26.0
+
+
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 4
+
+ Press : 
+ 1. Circle
+ 2. Rectangle
+ 3. Square
+ 4. Exit
+ Enter your choice : 3
+
+ Square : 
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 1
+
+ colur      : BLUE
+ Area       : 1.0
+ Perimeter  : 4.0
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 2
+
+ Side : 4
+
+ colur      : BLUE
+ Area       : 16.0
+ Perimeter  : 16.0
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 3
+
+ Colour : orange
+ Side   : 6
+
+ colur      : orange
+ Area       : 36.0
+ Perimeter  : 24.0
+ 1 .Default Constructor
+ 2 .Change  1 parameter
+ 3 .Change  2 parameters
+ 4 .Exit
+ Enter your Choice : 4
+
+ Press : 
+ 1. Circle
+ 2. Rectangle
+ 3. Square
+ 4. Exit
+ Enter your choice : 4

@@ -1,0 +1,241 @@
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+1
+FACULTY...................
+Enter Name:
+rahul
+Enter Address:
+ssn
+Enter ID:
+123
+Enter Department:
+cse
+Enter Basic Pay:
+60000
+Enter Designation:
+hod
+Enter Course:
+java
+
+
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+2
+RESEARCHASSISTANT...................
+Enter name:
+ram
+Enter address:
+ssn_clg
+Enter id:
+124
+Enter dept:
+ece
+Enter project:
+circit
+Enter course:
+digital
+Enter the marks: 
+Sub 1:78
+Sub 2:78
+Sub 3:89
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+5
+
+
+		FACULTY
+NAME       : rahul
+ADDRESS    : ssn
+ID         : 123
+DEPT       : cse
+DESIGNATION: hod
+BASICPAY   : 60000
+COURSE     : java
+*********************************
+Netpay     :66000.0
+*********************************
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+6
+
+
+		RESEARCHASSISTANT
+NAME       : ram
+ADDRESS    : ssn_clg
+ID         : 124
+DEPT       : ece
+BASICPAY   : 60000
+PROJECT    : circit
+TOTMARKS   : 245.0
+COURSE     : digital
+GPA        : 8.166667
+*********************************
+Netpay     : 85800.0
+*********************************
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+3
+Submenu!
+Modify
+1.Address.
+2.Department.
+3.BasicPay.
+4.Designation.
+5.Course.
+6.Exit.
+Enter yout choice:
+1
+Enter Address:ssn_school_of_management
+
+Submenu!
+1.Address.
+2.Department.
+3.BasicPay.
+4.Designation.
+5.Course.
+6.Exit.
+Enter yout choice:
+5
+Enter Course:javascript
+
+Submenu!
+1.Address.
+2.Department.
+3.BasicPay.
+4.Designation.
+5.Course.
+6.Exit.
+Enter yout choice:
+6
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+5
+
+
+		FACULTY
+NAME       : rahul
+ADDRESS    : ssn_school_of_management
+ID         : 123
+DEPT       : cse
+DESIGNATION: hod
+BASICPAY   : 60000
+COURSE     : javascript
+*********************************
+Netpay     :66000.0
+*********************************
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+4
+Submenu!
+Modify
+1.Address.
+2.Department.
+3.BasicPay.
+4.Course.
+5.Exit.
+Enter yout choice:
+2
+Ener Department:eee
+
+Submenu!
+Modify
+1.Address.
+2.Department.
+3.BasicPay.
+4.Course.
+5.Exit.
+Enter yout choice:3
+Enter Basic Pay:55555
+
+Submenu!
+Modify
+1.Address.
+2.Department.
+3.BasicPay.
+4.Course.
+5.Exit.
+Enter yout choice:5
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+6
+
+
+		RESEARCHASSISTANT
+NAME       : ram
+ADDRESS    : ssn_clg
+ID         : 124
+DEPT       : eee
+BASICPAY   : 55555
+PROJECT    : circit
+TOTMARKS   : 245.0
+COURSE     : digital
+GPA        : 8.166667
+*********************************
+Netpay     : 79443.65
+*********************************
+Press
+1.Enter Faculty Details.
+2.Enter ResearchAssistant Details.
+3.Modify Faculty Details.
+4.Modify ResearchAssistant Details.
+5.Print Faculty Details.
+6.Print ResearchAssistant Details.
+7.Exit.
+Enter your Choice:
+7

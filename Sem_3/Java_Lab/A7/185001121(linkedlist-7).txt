@@ -1,0 +1,41 @@
+Enter Size of List :
+5
+Enter element: 4
+Enter element: 5
+Enter element: 6
+Enter element: 7
+Enter element: 8
+
+List is as follows[4, 5, 6, 7, 8]
+Enter Element to insert at FRONT: 
+1
+Enter Element to insert at END: 
+9
+Modified List is [1, 4, 5, 6, 7, 8, 9]
+Enter Element to insert at position: 
+1
+Enter position to insert ELement: 
+2
+Modified List is [1, 4, 1, 5, 6, 7, 8, 9]
+Removing elements from both sides!
+Modified List is [4, 1, 5, 6, 7, 8]
+Enter element to remove: 
+1
+List After Deletion: [4, 5, 6, 7, 8]
+Sorted List: [4, 5, 6, 7, 8]
+Enter element to find position: 
+7
+Position of 7 in list : 3
+Displaying list in forward order [4, 5, 6, 7, 8]
+
+Displaying list in reverse order
+
+Algorithm Manner
+[8, 7, 6, 5, 4]
+
+Un Algorithm Manner
+87654
+
+The Total is: 30
+The Average IS:6
+Newly Created List is: [7, 8]

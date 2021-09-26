@@ -1,0 +1,51 @@
+Enter String: Rahul
+Enter String: Ram
+Enter String: Raghu
+Enter String: Prithvi
+Enter String: Prakash
+Enter String: Rama
+Enter String: Nithish
+Enter String: Nija
+Enter String: Gokul
+Enter String: Sandy
+
+List After Adding 10 Elements: [Rahul, Ram, Raghu, Prithvi, Prakash, Rama, Nithish, Nija, Gokul, Sandy]
+
+Enter String to enter at speciic position: 
+Java
+
+Enter position to insert element in list: 
+4
+
+List After Inserting ELement : [Rahul, Ram, Raghu, Prithvi, Java, Prakash, Rama, Nithish, Nija, Gokul, Sandy]
+
+Enter element to display occurence: 
+Java
+
+Occurence: 
+1
+Enter Letter to find String that starts with it: 
+N
+Strings that start with N are
+Nithish Nija 
+
+Enter SubString: 
+ghu
+Strings that contain the Substring are: 
+Raghu 
+
+Enter String to replace
+Java
+Enter replacement String
+Java_the_great
+
+List After Replacement: [Rahul, Ram, Raghu, Prithvi, Java_the_great, Prakash, Rama, Nithish, Nija, Gokul, Sandy]
+
+Enter element to remove: 
+Ram
+
+List After Removal: [Rahul, Raghu, Prithvi, Java_the_great, Prakash, Rama, Nithish, Nija, Gokul, Sandy]
+
+After Removal of Duplicates: [Sandy, Nithish, Raghu, Java_the_great, Prakash, Prithvi, Rahul, Nija, Rama, Gokul]
+
+Displaying List: [Sandy, Nithish, Raghu, Java_the_great, Prakash, Prithvi, Rahul, Nija, Rama, Gokul]

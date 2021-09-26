@@ -1,0 +1,96 @@
+Output for Java Test!
+Enter the number of students
+3
+Enter the Student Details
+Enter Name :
+Rahul
+Enter Age :
+18
+Enter Address :
+ssn
+Enter Department :
+cse
+Enter Register Number :
+121
+Enter mark 1
+98
+Enter mark 2
+89
+Enter mark 3
+89
+Enter mark 4
+890
+Caught :InvalidMarks
+890.0 is not between 0 and 100
+Enter mark 4
+98
+Enter mark 5
+78
+Name       :Rahul
+Age        :18
+Address    :ssn
+Department :cse
+Register no:121
+GPA        :9.04
+Enter the Student Details
+Enter Name :
+Ram
+Enter Age :
+17
+Enter Address :
+ssnclg
+Enter Department :
+ecs
+Enter Register Number :
+122
+Enter mark 1
+76
+Enter mark 2
+76
+Enter mark 3
+76
+Enter mark 4
+76
+Enter mark 5
+-56
+Caught :InvalidMarks
+-56.0 is not between 0 and 100
+Enter mark 5
+69
+Name       :Ram
+Age        :17
+Address    :ssnclg
+Department :ecs
+Register no:122
+GPA        :7.46
+Enter the Student Details
+Enter Name :
+RahulRsm
+Enter Age :
+18
+Enter Address :
+ssn_clg
+Enter Department :
+it
+Enter Register Number :
+123
+Enter mark 1
+78
+Enter mark 2
+89
+Enter mark 3
+876
+Caught :InvalidMarks
+876.0 is not between 0 and 100
+Enter mark 3
+78
+Enter mark 4
+89
+Enter mark 5
+67
+Name       :RahulRsm
+Age        :18
+Address    :ssn_clg
+Department :it
+Register no:123
+GPA        :8.02

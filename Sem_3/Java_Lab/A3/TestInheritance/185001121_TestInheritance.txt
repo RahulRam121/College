@@ -1,0 +1,276 @@
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+1
+Enter the number of Sudents:
+2
+Student Number:1
+Student's name:
+rahul
+Aadhaar number:
+23456
+Address:
+ssn_clg
+Gender:
+m
+Program:
+cse
+Year:
+2
+Total Mark:
+455
+Student Number:2
+Student's name:
+ram
+Aadhaar number:
+21231
+Address:
+ssn_clg1
+Gender:
+m
+Program:
+ece
+Year:
+2
+Total Mark:
+399
+Inserted Successfully!!
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+2
+Enter the number of Faulties:
+3
+Faculty Number:1
+Faculty's name:
+prithvi
+Aadhaar number:
+45454
+Address:
+ssn_clg_engg
+Gender:
+m
+Designation:
+principal
+Department:
+cse
+Basic Pay:
+40000
+Faculty Number:2
+Faculty's name:
+vicky
+Aadhaar number:
+5465645
+Address:
+ssn_clg_engg1
+Gender:
+m
+Designation:
+teacher
+Department:
+ece
+Basic Pay:
+30000
+Faculty Number:3
+Faculty's name:
+ramya
+Aadhaar number:
+434434
+Address:
+ssn_clg_engg2
+Gender:
+f
+Designation:
+hod
+Department:
+cse
+Basic Pay:
+50000
+Inserted Successfully!
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+4
+Printng all the Student's Details!
+Student Number :1
+Student's name :rahul
+Aadhaar number :23456
+Address        :ssn_clg
+Gender         :m
+Program        :cse
+Year           :2
+Total Mark     :455.0
+GPA            :9.1
+Student Number :2
+Student's name :ram
+Aadhaar number :21231
+Address        :ssn_clg1
+Gender         :m
+Program        :ece
+Year           :2
+Total Mark     :399.0
+GPA            :7.9800005
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+5
+Printing all Faculty Details!
+Faculty Number :1
+Faculty's name :prithvi
+Aadhaar number :45454
+Address        :ssn_clg_engg
+Gender         :m
+Designation    :principal
+Department     :cse
+Basic Pay      :40000.0
+Net Salary     :61400.0
+Faculty Number :2
+Faculty's name :vicky
+Aadhaar number :5465645
+Address        :ssn_clg_engg1
+Gender         :m
+Designation    :teacher
+Department     :ece
+Basic Pay      :30000.0
+Net Salary     :46050.0
+Faculty Number :3
+Faculty's name :ramya
+Aadhaar number :434434
+Address        :ssn_clg_engg2
+Gender         :f
+Designation    :hod
+Department     :cse
+Basic Pay      :50000.0
+Net Salary     :76750.0
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+3
+Modify,
+1.Student Details.
+2.Faculty Details.
+1
+Enter the name of the Student:
+rahul
+Select a field to be modfied:
+1.Address.
+2.Year.
+3.Total Marks.
+4.Exit
+2
+Enter Year:
+3
+1.Address.
+2.Year.
+3.Total Marks.
+4.Exit
+4
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+3
+Modify,
+1.Student Details.
+2.Faculty Details.
+2
+Enter the name of the Faculty:
+vicky
+Select a field to be modfied:
+1.Address.
+2.Designation.
+3.Basic Pay.
+4.Exit
+3
+Basic Pay:
+45000
+1.Address.
+2.Designation.
+3.Basic Pay.
+4.Exit
+4
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+4
+Printng all the Student's Details!
+Student Number :1
+Student's name :rahul
+Aadhaar number :23456
+Address        :ssn_clg
+Gender         :m
+Program        :cse
+Year           :3
+Total Mark     :455.0
+GPA            :9.1
+Student Number :2
+Student's name :ram
+Aadhaar number :21231
+Address        :ssn_clg1
+Gender         :m
+Program        :ece
+Year           :2
+Total Mark     :399.0
+GPA            :7.9800005
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+5
+Printing all Faculty Details!
+Faculty Number :1
+Faculty's name :prithvi
+Aadhaar number :45454
+Address        :ssn_clg_engg
+Gender         :m
+Designation    :principal
+Department     :cse
+Basic Pay      :40000.0
+Net Salary     :61400.0
+Faculty Number :2
+Faculty's name :vicky
+Aadhaar number :5465645
+Address        :ssn_clg_engg1
+Gender         :m
+Designation    :teacher
+Department     :ece
+Basic Pay      :45000.0
+Net Salary     :69075.0
+Faculty Number :3
+Faculty's name :ramya
+Aadhaar number :434434
+Address        :ssn_clg_engg2
+Gender         :f
+Designation    :hod
+Department     :cse
+Basic Pay      :50000.0
+Net Salary     :76750.0
+1.Enter Student Details.
+2.Enter Faculty Detals.
+3.Modify Details.
+4.Print all he Student's Details.
+5.Print all the Faculty Details.
+6.Exit.
+6

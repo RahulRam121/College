@@ -1,0 +1,264 @@
+Menu:
+1.Integer.
+2.Double.
+3.String.
+Exit.
+Enter your choice : 1
+Enter the height of the stack : 3
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 2
+2 pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 3
+3 pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 4
+4 pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 5
+Error : StackisFull
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 4
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 3
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 2
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Error : StackisEmpty
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 4
+Menu:
+1.Integer.
+2.Double.
+3.String.
+Exit.
+Enter your choice : 3
+Enter the height of the stack : 3
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 2.2
+2.2 pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 3.3.
+3.3. pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 4.4.
+4.4. pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : 5.5.
+Error : StackisFull
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 3
+Displying the Stack...
+*********************************
+4.4. 3.3. 2.2 
+*********************************
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 4.4.
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 3.3.
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : 2.2
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Error : StackisEmpty
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 3
+Displying the Stack...
+*********************************
+
+*********************************
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 4
+Menu:
+1.Integer.
+2.Double.
+3.String.
+Exit.
+Enter your choice : 3
+Enter the height of the stack : 3
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : rahul
+rahul pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : ram
+ram pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : rahulram
+rahulram pushed to the stack
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 1
+Enter item : java
+Error : StackisFull
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 3
+Displying the Stack...
+*********************************
+rahulram ram rahul 
+*********************************
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : rahulram
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : ram
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Performing POP operation
+Poped item : rahul
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 2
+Error : StackisEmpty
+SubMenu:
+1.push.
+2.pop.
+3.display.
+4.Exit.
+Enter your choice : 4
+Menu:
+1.Integer.
+2.Double.
+3.String.
+Exit.
+Enter your choice : 4

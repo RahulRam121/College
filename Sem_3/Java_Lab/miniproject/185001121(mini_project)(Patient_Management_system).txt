@@ -1,0 +1,394 @@
+WELCOME TO PATIENT MANAGEMENT SYSTEM!
+Enter Name :rahul
+Enter AGE :18
+Enter Gender :m
+Enter Blood Group :a+ve
+Enter Address :ssn
+Enter Mobile Number :342343
+Enter Height(cms)  :99
+Enter Weight(kgs)  :77
+Enter the name of the Doctor :asdasd
+Enter your Token Number  :123
+Have you taken any test?
+1.Yes
+2.NO 
+Enter  :1
+Number of Test done  :3
+Select the test you have done!
+1.EEG
+2.ECG
+3.X-Ray
+4.Blood Culture Test
+5.Urine Culture Test
+Test no 1 :1
+Test no 2 :2
+Test no 3 :3
+Has the doctor recommended a admission ?
+1.YES/2.NO  :1
+Enter Attender Name  :ram
+Enter Bed Number  :12
+Enter the room no  :1234
+Enter the date of admission  :9/9/9
+Room Type 
+1.First Class
+2.Second Class
+3.Third Class 
+Enter :1
+Enter the Details of Discharge 
+Enter the date of discharge(dd/mm/yyyy)  :9/10/9
+days:30
+Do you have any life insurance claims?
+1.YES/2.NO  :
+1
+Enter the Purchase Details!
+Select a Medicine
+1.Paracetamol
+2.Cough syrup
+3.Anti Biotics
+4.Painkillers
+5.Injection
+6.Trips Bottle
+Enter:
+1
+Enter Quantity  :
+4
+Continue(y/n)  :
+y
+Select a Medicine
+1.Paracetamol
+2.Cough syrup
+3.Anti Biotics
+4.Painkillers
+5.Injection
+6.Trips Bottle
+Enter:
+5
+Enter Quantity  :
+4
+Continue(y/n)  :
+y
+Select a Medicine
+1.Paracetamol
+2.Cough syrup
+3.Anti Biotics
+4.Painkillers
+5.Injection
+6.Trips Bottle
+Enter:
+6
+Enter Quantity  :
+4
+Continue(y/n)  :
+n
+Select one of the policies!
+1.Cashless Claims
+2.Reimbursement Claims
+Enter  :2
+***********************************************
+Patient Name      :rahul
+Doctor Name       :asdasd
+Token Number      :123
+Medicine Charges  :1640.0
+Consultation Fees :250.0
+Room Rent         :45000.0
+Test Charges      :2600.0
+***********************************************
+Total Charges     :37117.5
+***********************************************
+Continue(1.Yes/2.No)  :1
+Enter Name :ram
+Enter AGE :17
+Enter Gender :m
+Enter Blood Group :0-ve
+Enter Address :ssn_clg
+Enter Mobile Number :645645645
+Enter Height(cms)  :87
+Enter Weight(kgs)  :78
+Enter the name of the Doctor :raghu
+Enter your Token Number  :124
+Have you taken any test?
+1.Yes
+2.NO 
+Enter  :2
+Do you have any furhter Appoinment?
+1.Yes/2.No  :1
+Enter the date of Appoinment(dd/mm/yyyy)  :8/9/9
+Enter the time of the Appoinment in 24 hours format(hh:mm)  :16:50
+Enter the Purchase Details!
+Select a Medicine
+1.Paracetamol
+2.Cough syrup
+3.Anti Biotics
+4.Painkillers
+5.Injection
+6.Trips Bottle
+Enter:
+4
+Enter Quantity  :
+23
+Continue(y/n)  :
+n
+***********************************************
+Patient Name      :ram
+Doctor Name       :raghu
+Token Number      :124
+Medicine Charges  :1380.0
+Consultation Fees :250.0
+***********************************************
+Total Charges     :1630.0
+***********************************************
+Continue(1.Yes/2.No)  :1
+Enter Name :prithvi
+Enter AGE :18
+Enter Gender :m
+Enter Blood Group :a-ve
+Enter Address :kk
+Enter Mobile Number :4564564564
+Enter Height(cms)  :45
+Enter Weight(kgs)  :56
+Enter the name of the Doctor :rama
+Enter your Token Number  :125
+Have you taken any test?
+1.Yes
+2.NO 
+Enter  :1
+Number of Test done  :2
+Select the test you have done!
+1.EEG
+2.ECG
+3.X-Ray
+4.Blood Culture Test
+5.Urine Culture Test
+Test no 1 :1
+Test no 2 :4
+Has the doctor recommended a admission ?
+1.YES/2.NO  :2
+Do you have any furhter Appoinment?
+1.Yes/2.No  :2
+Enter the Purchase Details!
+Select a Medicine
+1.Paracetamol
+2.Cough syrup
+3.Anti Biotics
+4.Painkillers
+5.Injection
+6.Trips Bottle
+Enter:
+2
+Enter Quantity  :
+3
+Continue(y/n)  :
+n
+***********************************************
+Patient Name      :prithvi
+Doctor Name       :rama
+Token Number      :125
+Medicine Charges  :300.0
+Test Charges      :1800.0
+Consultation Fees :250.0
+***********************************************
+Total Charges     :2350.0
+***********************************************
+Continue(1.Yes/2.No)  :1
+Enter Name :veer
+Enter AGE :21
+Enter Gender :m
+Enter Blood Group :b
+Enter Address :mountk2
+Enter Mobile Number :645645644
+Enter Height(cms)  :75
+Enter Weight(kgs)  :56
+Enter the name of the Doctor :java
+Enter your Token Number  :126
+Have you taken any test?
+1.Yes
+2.NO 
+Enter  :2
+Do you have any furhter Appoinment?
+1.Yes/2.No  :1
+Enter the date of Appoinment(dd/mm/yyyy)  :65767g
+java.text.ParseException: Unparseable date: "65767g"
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+2
+Select 
+1.Inpatient/2.Outpatient  :2
+1.Search by name
+2.Search by Token Number 
+Enter  :2
+Enter Token number  :126
+Token Number not found!
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+2
+Select 
+1.Inpatient/2.Outpatient  :2
+1.Search by name
+2.Search by Token Number 
+Enter  :2
+Enter Token number  :125
+Found
+1.Print Details
+2.Print Bill
+3.exit
+Enter  :
+1
+Displaying Patient's Details..
+***********************************************
+Name           : prithvi
+Age            : 18
+Gender         : m
+Mobile Number  : 4564564564
+Address        : kk
+Blood Group    : a-ve
+Token Number   : 125
+Doctor's Name  : rama
+Height         : 45.0
+Weight         : 56.0
+Test Done      : EEG
+Test Done      : Blood Culture Test
+Appoinment Date:   -
+Visiting Time  :   -
+***********************************************
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+4
+Select 1.Inpatient/2.Outpatient  :
+1
+Displaying All Inpatient Details
+Displaying Patient's Details..
+***********************************************
+Name              :rahul
+Age               :18
+Gender            :m
+Mobile Number     :342343
+Address           :ssn
+Blood Group       :a+ve
+Token Number      :123
+Doctor's Name     :asdasd
+Height            :99.0
+Weight            :77.0
+Admission Status  : Admitted for 30days
+Date of Admission : 9/9/9
+Date of Discharge :  9/10/9
+Room Type         : First Class
+Room Number       : 1234
+Bed Number        : 12
+Attender Name     : ram
+Status            : <DISCHARGED>
+***********************************************
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+4
+Select 1.Inpatient/2.Outpatient  :
+2
+Displaying All Outpatient Details
+Displaying Patient's Details..
+***********************************************
+Name           : ram
+Age            : 17
+Gender         : m
+Mobile Number  : 645645645
+Address        : ssn_clg
+Blood Group    : 0-ve
+Token Number   : 124
+Doctor's Name  : raghu
+Height         : 87.0
+Weight         : 78.0
+Test Done      :   -
+Appoinment Date:Sun Sep 08 00:00:00 IST 9
+Visiting Time  :16:50
+***********************************************
+Displaying Patient's Details..
+***********************************************
+Name           : prithvi
+Age            : 18
+Gender         : m
+Mobile Number  : 4564564564
+Address        : kk
+Blood Group    : a-ve
+Token Number   : 125
+Doctor's Name  : rama
+Height         : 45.0
+Weight         : 56.0
+Test Done      : EEG
+Test Done      : Blood Culture Test
+Appoinment Date:   -
+Visiting Time  :   -
+***********************************************
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+3
+Select 1.Inpatient/2.Outpatient  :
+1
+Enter Token number :
+123
+Found
+Modify
+1.Name
+2.Age
+3.Height and weight
+4.Blood Group
+5.Address
+6.Mobile Number
+2
+Enter AGE :
+19
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+4
+Select 1.Inpatient/2.Outpatient  :
+1
+Displaying All Inpatient Details
+Displaying Patient's Details..
+***********************************************
+Name              :rahul
+Age               :19
+Gender            :m
+Mobile Number     :342343
+Address           :ssn
+Blood Group       :a+ve
+Token Number      :123
+Doctor's Name     :asdasd
+Height            :99.0
+Weight            :77.0
+Admission Status  : Admitted for 30days
+Date of Admission : 9/9/9
+Date of Discharge :  9/10/9
+Room Type         : First Class
+Room Number       : 1234
+Bed Number        : 12
+Attender Name     : ram
+Status            : <DISCHARGED>
+***********************************************
+Press
+1.Enter Details.
+2.Search Records.
+3.Modify.
+4.PrintALL.
+5.Exit :
+5
