@@ -1,0 +1,23 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>hiddenservlet1</servlet-name>
+		<servlet-class>HiddenServlet.FirstServ</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>hiddenservlet2</servlet-name>
+		<servlet-class>HiddenServlet.SecondServ</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>hiddenservlet1</servlet-name>
+		<url-pattern>/myhiddenservlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>hiddenservlet2</servlet-name>
+		<url-pattern>/myhiddenservlet2</url-pattern>
+	</servlet-mapping>
+
+</web-app>

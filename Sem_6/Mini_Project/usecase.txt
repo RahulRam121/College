@@ -1,0 +1,6 @@
+Actors:
+	registered users
+	unregistered users
+	shop keepers
+	time
+	

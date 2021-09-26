@@ -1,0 +1,67 @@
+h2 {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    margin: 7px;
+    padding: 5px;
+}
+
+label {
+    padding-left: 10px;
+}
+
+.main {
+    border: 2px solid;
+    width: 60%;
+    margin: auto;
+    font-size: 20px
+}
+
+.nav {
+    position: absolute;
+    width: 200px;
+    margin-left: 10px
+}
+
+.rules {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.question {
+    padding-left: 30px;
+}
+
+.options {
+    margin: 10px;
+}
+
+#submitbtn {
+    margin-top: 30px;
+    margin-left: 70%;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+#submitbtn:hover {
+    background-color: cyan;
+    width: 12%;
+    margin-left: 69%;
+}
+
+table {
+    width: 50vw;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}

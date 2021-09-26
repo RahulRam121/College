@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+		<title>Character Search</title>
+
+		<style type="text/css">
+			h1 {
+				color: grey;
+				font-family: verdana, Geneva, sans-seriff;
+			}
+			body {
+				background-color: yellow;
+			}
+			p {
+				display: inline; 
+				font-size: 25px
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<center>
+			<h1>Character Search</h1>
+			<form method="POST" action="charsearchservlet">
+				Enter a paragraph:<textarea rows="5" cols="50" id="search_para" name="search_para"></textarea>
+				<br><br>
+				Enter a search character:<input type="text" id="search_char" name="search_char">
+				<br><br>
+				<input type="submit"  value="Search">
+				<input type="reset" name="Reset">
+			</form>
+			<br><br>
+			<p>Count : </p>
+			<p id="count">0</p>
+		</center>
+
+	</body>
+</html>

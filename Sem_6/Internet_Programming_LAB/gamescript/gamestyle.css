@@ -1,0 +1,36 @@
+img{
+ height:200px;
+ width:150px;
+}
+body{
+ background-color:gold;
+ padding-left:150px;
+ padding-top:100px;
+}
+div{
+ width:100px;
+ height:60px;
+ background-color:black;
+ position: absolute;
+ right:200px;
+ align-content: center;
+}
+.upper{
+ top: 25%;
+}
+.lower{
+ top: 60%;
+}
+p{
+ color:aqua;
+ font-size:30px;
+ position:relative;
+ left:40px;
+ top:-15px;
+}
+button{
+ border:none;
+ background-color: gold;
+ height: 210px;
+ width:160px;
+}

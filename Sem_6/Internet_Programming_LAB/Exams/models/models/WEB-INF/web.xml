@@ -1,0 +1,14 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>mycontroller</servlet-name>
+		<servlet-class>CharacterSearch.Controller.CharServ</servlet-class>
+	</servlet>
+ 
+	<servlet-mapping>
+	      <servlet-name>mycontroller</servlet-name>
+	      <url-pattern>/charsearchservlet</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

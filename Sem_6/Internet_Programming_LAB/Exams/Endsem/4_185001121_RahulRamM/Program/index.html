@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			.split {
+				height: 80%;
+				width: 50%;
+				position: fixed;
+			}
+			.veg {
+				left: 0;
+				background-color: green;
+				font-size: larger;
+			}
+			.nonveg {
+				right: 0;
+				background-color: #A93226;
+				font-size: smaller;
+				font-weight: bold;
+			}
+			li {
+				cursor: pointer;
+				padding-bottom: 7px;
+			}
+			img{
+				border: 4px solid gray;
+			}
+
+		</style>
+	</head>
+	<body style="background-color: orange">
+		<center>
+			<h1 style="color:black">SSN Hotel</h1>
+		</center>
+		<div class="split veg">
+			<center>
+				<h3>Vegetarian Menu</h3>
+			</center>
+			<ul style="padding-left: 70px; padding-bottom: 50px">
+				<li id="0" onclick="displayDetails(0)" style="color:pink">Idli</li>
+				<li id="1" onclick="displayDetails(1)">Dosa</li>
+				<li id="2" onclick="displayDetails(2)">Puri</li>
+				<li id="3" onclick="displayDetails(3)">Upma</li>
+				<li id="4" onclick="displayDetails(4)">Pongal</li>
+			</ul>
+			<center>
+				<div class="info">
+					
+					<img id="vegimage" src="assets/idli.jpg" width="300" height="230">
+					<h4 id="vegprice">Rs: 30</h4>
+				</div>
+			</center>
+		</div>
+
+		<div class="split nonveg">
+			<center>
+				<h3>Non-Vegetarian Menu</h3>
+			</center>
+			<ul style="padding-left: 70px; padding-bottom: 100px">
+				<li id="5" onclick="displayDetails(5)" style="color:pink">Chicken Fry</li>
+				<li id="6" onclick="displayDetails(6)">Mutton Fry</li>
+				<li id="7" onclick="displayDetails(7)">Chicken Biriyani</li>
+				<li id="8" onclick="displayDetails(8)">Hyderabadi Biriyani</li>
+				<li id="9" onclick="displayDetails(9)">Chicken Roll</li>
+			</ul>
+			<center>
+				<div class="info">
+			
+					<img id="nonvegimage" src="assets/chicken_fry.jpg" width="300" height="230">
+					<h4 id="nonvegprice">Rs: 120</h4>
+				</div>
+			</center>
+		</div>
+
+		<script type="text/javascript">
+			var images = ['assets/idli.jpg', 'assets/dosa.jpg', 'assets/puri.jpg', 'assets/upma.jpg', 'assets/pongal.jpg', 'assets/chicken_fry.jpg', 'assets/mutton_fry.jpg', 'assets/chicken_biriyani.jpg', 'assets/hyderabadi_biriyani.jpg', 'assets/chicken_roll.jpg'];
+			var prices = [30, 40, 50, 60, 80, 120, 150, 250, 300, 170];
+
+			var imageId = "";
+			var priceId = "";
+
+			function displayDetails(index) {
+				if(index < 5) {
+					imageId = "vegimage";
+					priceId = "vegprice";
+					//document.getElementById("veginst").style.display = "none";
+					for(var i = 0; i < 5; i++) {
+						document.getElementById(i).style.color = "black";
+					}
+				}
+				else {
+					imageId = "nonvegimage";
+					priceId = "nonvegprice";
+					//document.getElementById("nonveginst").style.display = "none";
+					for(var i = 5; i < 10; i++) {
+						document.getElementById(i).style.color = "black";
+					}
+				}
+				var image = document.getElementById(imageId);
+				var price = document.getElementById(priceId);
+
+				image.src = images[index];
+				price.innerHTML = "Rs: " +  prices[index];
+
+				image.style.display = "block";
+				price.style.display = "block";
+
+				
+				document.getElementById(index).style.color = "pink";
+
+			}
+		</script>
+	</body>
+</html>

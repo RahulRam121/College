@@ -1,0 +1,3 @@
+Search paragraph : This is Rahul Ram attending Internet Programming Lab models.
+Search Character : r
+Count : 5
